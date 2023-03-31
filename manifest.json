@@ -1,0 +1,19 @@
+{
+    "name": "Translate GPT",
+    "description": "Traduzir um texto usando o GPT",
+    "version": "1.0",
+    "manifest_version": 3,
+    "permissions": [
+        "activeTab",
+        "tabs",
+        "scripting",
+        "contextMenus",
+        "webRequest"
+    ],
+    "action": {
+        "default_popup": "index.html"
+    },
+    "background": {
+        "service_worker": "background.js"
+    }
+}
